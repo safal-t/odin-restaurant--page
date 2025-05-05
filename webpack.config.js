@@ -9,6 +9,14 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'), // Absolute path to dist
     assetModuleFilename: 'assets/[hash][ext][query]' // for images if needed
   },
+  module: {
+    rules: [
+        {
+            test: /\.(png|jpe?g|gif|svg)$/i,
+            type: 'asset/resource',
+        }
+    ]
+  },
   plugins: [
     new CleanWebpackPlugin(), // Clears dist/ before each build
     new HtmlWebpackPlugin({
