@@ -1,3 +1,3 @@
-import { loadPageContent } from "./modules/page-load.js";
+import { loadPageContent } from "./modules/home/home.js";
 
 loadPageContent()
