@@ -1,0 +1,9 @@
+#content {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8);
+    background-image: url(../../images/nigiri-maki-sushi.jpg);
+    height: 80vh;
+    width: 100vw;
+}
