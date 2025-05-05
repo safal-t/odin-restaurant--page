@@ -5,7 +5,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
   entry: './src/index.js', // Starting point of your app
   output: {
-    filename: 'main.js', // Bundled JS filename
+    filename: 'bundle.js', // Bundled JS filename
     path: path.resolve(__dirname, 'dist'), // Absolute path to dist
     assetModuleFilename: 'assets/[hash][ext][query]' // for images if needed
   },
