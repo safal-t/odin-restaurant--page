@@ -7,6 +7,7 @@ export const loadAboutPageContent = () => {
     const heading = createElementWithText("h1", "About Us");
 
     const aboutContainer = document.createElement("div");
+    aboutContainer.className = "about-text";
     const aboutText = document.createElement("p");
 
     aboutText.innerHTML = `
