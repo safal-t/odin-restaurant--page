@@ -1,0 +1,13 @@
+* {
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8);
+}
+
+body {
+    background-color: hsl(0, 0%, 0%);
+}
+
+h1, p {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}

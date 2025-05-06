@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    padding-bottom: 0.5rem;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: white;
+}
+
+
